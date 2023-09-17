@@ -23,3 +23,8 @@ print(f'El número de dimensiones de un vector es: {vector.ndim}')
 
 expand = np.expand_dims(np.array([1, 2, 3]), axis = 0)
 print(expand)
+print(f'El numero de dimensiones con el expand es: {expand.ndim}')
+
+print(vector, vector.ndim)
+vector_2 = np.squeeze(vector)
+print(vector_2, vector_2.ndim)
