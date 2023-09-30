@@ -6,3 +6,7 @@ matriz = arr.reshape(2,5)
 print(matriz)
 
 print(arr.max())
+
+print(matriz.max(1))
+print(arr.argmax())
+print(matriz.argmax(0))
