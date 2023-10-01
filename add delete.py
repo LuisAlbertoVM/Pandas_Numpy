@@ -33,3 +33,8 @@ print()
 data = np.arange(0, df_books.shape[0])
 df_books['Range'] = data
 print(df_books)
+
+print()
+print('Add rows')
+df_books = pd.concat([df_books,df_books],ignore_index=True)
+print(df_books)
