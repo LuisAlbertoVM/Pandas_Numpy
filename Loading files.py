@@ -18,3 +18,7 @@ print("Loc")
 print(df_books.loc[0:4, ['Name', 'Author']])
 print(df_books.loc[0:4, ['Reviews']] * -1)
 print(df_books.loc[0:4, ['Author']] == 'JJ Smith')
+
+print()
+print('Iloc')
+print(df_books.iloc[:])
