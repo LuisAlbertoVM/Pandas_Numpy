@@ -16,5 +16,4 @@ print(arr.min())
 print(matriz.min())
 print(matriz.argmin(0))
 
-print()
 print(arr.ptp())
