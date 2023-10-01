@@ -5,3 +5,6 @@ print(df_books)
 
 print()
 print(df_books.columns)
+
+print()
+print(pd.read_json("HPCharactersDataRaw.json"))
