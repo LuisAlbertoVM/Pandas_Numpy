@@ -15,3 +15,9 @@ print(pd.Series(dict))
 print()
 print(psg_players[0:3])
 
+print()
+dict = {'Jugador': ['Navas', 'Mbappe', 'Neymar', 'Messo'],
+ 'Altura': [183, 170, 170, 165.0],
+ 'Goles': [2, 200, 200, 200]}
+
+print(pd.DataFrame(dict, index=[1, 7, 10, 30]))
