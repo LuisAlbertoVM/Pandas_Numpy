@@ -7,4 +7,4 @@ print()
 print(df_books.columns)
 
 print()
-print(pd.read_json("HPCharactersDataRaw.json"))
+print(pd.read_json("HPCharactersDataRaw.json", typ = 'Series'))
