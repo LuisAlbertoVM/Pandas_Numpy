@@ -16,4 +16,22 @@ print(arr.min())
 print(matriz.min())
 print(matriz.argmin(0))
 
+print()
+print(arr)
 print(arr.ptp())
+
+print()
+print(matriz)
+print(matriz.ptp(0))
+
+print()
+print(np.percentile(arr, 50))
+
+print()
+print(arr.sort())
+
+print()
+print(np.median(arr))
+
+
+np.median(matriz, 0)
