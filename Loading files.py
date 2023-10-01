@@ -15,4 +15,6 @@ print(df_books[['Name','Author','Year']])
 
 print()
 print("Loc")
-print(df_books.loc[:])
+print(df_books.loc[0:4, ['Name', 'Author']])
+print(df_books.loc[0:4, ['Reviews']] * -1)
+print(df_books.loc[0:4, ['Author']] == 'JJ Smith')
