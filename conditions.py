@@ -7,3 +7,7 @@ print(conditions_index)
 
 print()
 print(arr[conditions_index & (arr < 9)])
+
+print()
+arr[arr>5] = 99
+print(arr)
