@@ -37,4 +37,5 @@ print(df_books)
 print()
 print('Add rows')
 df_books = pd.concat([df_books,df_books],ignore_index=True)
+
 print(df_books)
