@@ -19,5 +19,5 @@ print()
 dict = {'Jugador': ['Navas', 'Mbappe', 'Neymar', 'Messo'],
  'Altura': [183, 170, 170, 165.0],
  'Goles': [2, 200, 200, 200]}
-
-print(pd.DataFrame(dict, index=[1, 7, 10, 30]))
+df_Players = pd.DataFrame(dict, index=[1, 7, 10, 30])
+print(df_Players)
