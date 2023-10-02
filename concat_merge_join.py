@@ -38,3 +38,15 @@ right_df = pd.DataFrame({'key2':['k0','k1','k2',np.nan],
 print(left_df)
 print(right_df)
 print(left_df.merge(right_df, left_on='key',right_on='key2',how='left'))
+
+print()
+print('Join Match')
+
+left_df = pd.DataFrame({'A':['A0','A1','A2'],
+ 'B':['B0','B1','B2']},
+ index=['k0','k1','k2'])
+
+right_df = pd.DataFrame({'C':['C0','C1','C2'],
+ 'D':['D0','D1','D2']},
+ index=['k0','k1','k2'])
+print(left_df.join(right_df))
