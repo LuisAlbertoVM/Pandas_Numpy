@@ -48,5 +48,7 @@ left_df = pd.DataFrame({'A':['A0','A1','A2'],
 
 right_df = pd.DataFrame({'C':['C0','C1','C2'],
  'D':['D0','D1','D2']},
- index=['k0','k1','k2'])
-print(left_df.join(right_df))
+ index=['k0','k2','k3'])
+print(left_df.join(right_df,how='left'))
+print(left_df.join(right_df,how='right'))
+print(left_df.join(right_df,how='outer'))
